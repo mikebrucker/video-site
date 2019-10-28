@@ -1,5 +1,5 @@
 import React from "react";
-import "../scss/YoutubeVideo.scss";
+import "../../scss/YoutubeVideo.scss";
 
 function YoutubeVideo({ youtubeUrl, title }) {
   return (

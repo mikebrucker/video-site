@@ -1,11 +1,11 @@
 import React from "react";
 import "./scss/App.scss";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import FetchVideos from "./components/FetchVideos";
-import RedirectHome from "./components/RedirectHome";
-import ManageVideos from "./components/ManageVideos";
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
+import RedirectHome from "./components/layout/RedirectHome";
+import FetchVideos from "./components/videos/FetchVideos";
+import ManageVideos from "./components/videos/ManageVideos";
 
 function App() {
   return (
