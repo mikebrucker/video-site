@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import YoutubeVideo from "./YoutubeVideo";
 
-export default class FetchVideos extends Component {
+class FetchVideos extends Component {
   componentDidMount() {
     // Fetch video data
   }
@@ -37,3 +37,5 @@ export default class FetchVideos extends Component {
     return <div className="FetchVideos">{displayFetchedVideos}</div>;
   }
 }
+
+export default FetchVideos;
